@@ -19,14 +19,14 @@ Shown above is the PCB design. For our design we choose to make all our componen
 These are the parts we used for this project. All parts were sourced from digikey and part numbers are included.
 
 Inventory of Parts:
-•	1 100uH Fixed Inductors – 732-11709-ND
-•	1 120uF Aluminum Capacitors – 565-1706-ND
-•	1 470uF Aluminum Capacitors – 732-9426-1-ND
-•	1 81ohm Ferrite Cores – 240-2296-ND
-•	1 IC Buck Converter 5V 3A – LM2576S-5.0/NOPB-ND
-•	1 Terminal Block Screw Type – 102-6191-ND
-•	1 Schottky Diode 40V 3A – 497-11370-1-ND
-• 1 USB Connectors
+1 100uH Fixed Inductors – 732-11709-ND
+1 120uF Aluminum Capacitors – 565-1706-ND
+1 470uF Aluminum Capacitors – 732-9426-1-ND
+1 81ohm Ferrite Cores – 240-2296-ND
+1 IC Buck Converter 5V 3A – LM2576S-5.0/NOPB-ND
+1 Terminal Block Screw Type – 102-6191-ND
+1 Schottky Diode 40V 3A – 497-11370-1-ND
+1 USB Connectors
 
 ## Simulations
 ![TiDesignSim](/Images/DCSIM.png)
