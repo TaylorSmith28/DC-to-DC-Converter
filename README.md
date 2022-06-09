@@ -20,6 +20,19 @@ Shown above is the PCB design. For our design we choose to make all our componen
 ![TiDesignSim](/Images/DCSIM.png)
 ![TiSim](/Images/WEBENCHSIM.png)
 Shown above is the simulation of the voltage response of our DC-to-DC converter under load. We used the WEBENCH tool from Texas Instruments for our simulations. The simulation is limited by its time frame but the time frame cannot be adjusted to show further. It does demonstrate the duty cycle of the circuit. 
+## Board Build Up Plan
+1.	Take inventory of all parts
+2.	Determine Correct Values for Components
+3.	Inspect PCB for defects
+4.	Solder Parts to board
+a.	Use one board until it works or there is an error impending continued work on that board.
+b.	Use KiCAD’s HTML BOM feature in order to assist with building the board
+5.	Check board amperage.
+6.	Test output voltage by inputting power from DC Power Supply.
+7.	Use load resistor to test output voltage.
+8.	Solder Battery Pack to Terminal Screw Input
+9.	Use a charge doctor and a phone to connect and test output voltage and current
+10.	Should having a working board at this point. 
 ## Results
 ![Results](/Images/RESULTS.jpg)
 ![Results2](/Images/RESULTSWCHARGE.png)
