@@ -9,7 +9,7 @@ This is a DC-to-DC Converter Design for Walla Walla University's Power Electroni
 4. Efficieny of 80% or above
 5. Cost less than $25
 ## Schematic
-![Schematic Version2](/Images/12-15V to 5V DC Buck Converter.png)
+![Schematic Version2](/Images/Schematic.png)
 Shown above is ou final schematic for our project. Our input is delived from a 12-15V source to the screw terminal. For our final version we used a set of 8 AA batteries to generate 12V into the screw terminal. The input then passes a ferrite bead in order to limit noise coming from the input. It then passes into a LM25765-5 Buck Converter. The LM25765 works as a simple switcher in conjuction with our inductor and schottky diode in order to create an average duty cyle of 5V. This 5V is then passed into a voltage divider, to get 2 and 2.5 V in order to use the data pins on the USB output. From the USB 5V are generated with a current ranging from about 20-30mA.
 ![DataPinVoltageDivider](/Images/Data Pin Voltage Divider.png)
 Shown here is the voltage divider used to power the data pins. The data pins had to be given a 2.75V on the D+ pin and 2V on the D-.
